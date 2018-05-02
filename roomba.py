@@ -7,7 +7,7 @@ import sys
 import termios
 import time
 
-RFCOMM_DEV = os.getenv("ROOMBA_RFCOMM", "/dev/rfcomm0")
+RFCOMM_DEV = os.getenv("ROOMBA_RFCOMM", "/dev/ttyUSB0")
 RFCOMM_BAUDRATE = 115200
 
 ANSI_RED = '\033[31m'
